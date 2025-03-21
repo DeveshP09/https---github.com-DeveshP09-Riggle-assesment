@@ -1,0 +1,19 @@
+.footer-body {
+  background-color: #212529;
+  width: 100%;
+  max-width: 100%;
+  
+}
+
+.footer-body .text-body-secondary {
+  color: white !important;
+}
+
+.footer-body .linkedin {
+    color: #0077B5  !important;
+ 
+}
+
+.footer-body .facebook{
+    color: #1877F2 !important;
+}

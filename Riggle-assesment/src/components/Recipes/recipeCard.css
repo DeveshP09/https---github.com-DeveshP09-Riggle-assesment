@@ -1,0 +1,44 @@
+.img {
+  width: 350px;
+  height: 250px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.card {
+  width: 350px !important;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #e3e5f3;
+}
+
+.instructions {
+  margin-top: 10px;
+}
+.card .btn {
+  color: black;
+}
+.card .btn:hover {
+  background-color: #ffc107;
+}
+
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 8px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+  }
+}

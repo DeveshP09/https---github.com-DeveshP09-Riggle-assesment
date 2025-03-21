@@ -1,0 +1,20 @@
+.recipes-container {
+  margin-left: 20px;
+  padding: 20px;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.main-content {
+  display: flex;
+}
+
+.app-container {
+  background-color: #fdf1f5;
+}
+
+@media (max-width: 768px) {
+  .recipes-container {
+    margin-left: 0px;
+  }
+}

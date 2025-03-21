@@ -1,0 +1,14 @@
+.sidebar-bg {
+  background-color: #273339 !important;
+}
+.sidebar {
+  height: 100dvh !important;
+  position: sticky;
+  top: 0;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none !important; /* Hide sidebar for screens smaller than 768px */
+  }
+}
