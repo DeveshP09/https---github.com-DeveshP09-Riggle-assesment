@@ -4,7 +4,7 @@
 2) Npm install 
 3) install dependencies
    a) npm i bootstrap@5.3.3
-   b) npm i react-icons
+   b) npm install react-icons --save
 
 ## Link to view
 https://lucent-beijinho-8be15c.netlify.app/
