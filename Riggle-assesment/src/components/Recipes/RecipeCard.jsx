@@ -9,17 +9,17 @@ function RecipeCard({ recipe }) {
 
   return (
     <>
-      <div class="row row-cols-1 row-cols-md-3 g-4 ">
-        <div class="col">
-          <div class="card h-100">
+      <div className="row row-cols-1 row-cols-md-3 g-4 ">
+        <div className="col">
+          <div className="card h-100">
             <img
               src={recipe.image}
-              class="card-img-top img"
+              className="card-img-top img"
               alt={recipe.image}
             />
-            <div class="card-body">
-              <h4 class="card-title">{recipe.name}</h4>
-              <p class="card-text">
+            <div className="card-body">
+              <h4 className="card-title">{recipe.name}</h4>
+              <p className="card-text">
                 <h5>Ingredients required :</h5>
                 {recipe.ingredients.map((ingredients) => (
                   <span key={recipe.ingredients}>{ingredients + " ,"}</span> //ingredient listing
@@ -28,7 +28,7 @@ function RecipeCard({ recipe }) {
 
               <button
                 type="button"
-                class="btn btn-outline-warning"
+                className="btn btn-outline-warning"
                 onClick={handleOnclick}
               >
                 {showInstructions ? "Hide Instructions" : "View More"}
@@ -36,7 +36,7 @@ function RecipeCard({ recipe }) {
 
               {/* Conditional Rendering of Instructions */}
               {showInstructions && (
-                <div class="instructions">
+                <div className="instructions">
                   <h5>
                     Time required:{" "}
                     {recipe.prepTimeMinutes + recipe.cookTimeMinutes} min
